@@ -14,16 +14,16 @@
       "question": "Ask a player something you're always curious about",
       "description": "Wild card! Speak your mind",
       "categoryId": 0,
-      "favourite": true,
+      "favourite": false,
       "levelId": 3,
-      "typeId": 1
+      "typeId": "0"
     },
     {
       "id": 2,
       "question": "What is the most important lesson you learned about life",
       "description": "Some things we learn stay with us forever",
       "categoryId": 4,
-      "favourite": false,
+      "favourite": true,
       "levelId": 2,
       "typeId": 0
     },
@@ -32,7 +32,7 @@
       "question": "Closer your eyes, how would you introduce each player to someone who is to join the game but has never met them before?",
       "description": "No second thoughts, say things that come to your mind first",
       "categoryId": 0,
-      "favourite": false,
+      "favourite": true,
       "levelId": 2,
       "typeId": 1
     },
@@ -60,7 +60,7 @@
       "description": "What is something that completely changed how you view the world?",
       "categoryId": 3,
       "favourite": false,
-      "levelId": 1,
+      "levelId": "2",
       "typeId": 0
     },
     {

@@ -88,6 +88,7 @@ export default function CardList(props) {
                  onClick={(event) => {
                     setIsFilled(!isFilled)
                     props.onUpdateFavourite({
+                        id: question.id,
                         favourite:!question.favourite,
                       }
                       );
