@@ -224,7 +224,8 @@ export default function StartGame() {
                     typeId={loadedQuestion.typeId} 
                     categoryId={loadedQuestion.categoryId}
             />
-             <Button
+            <span className="mx-4">
+            <Button
                  text="Next" 
                  size = "text-body"
                  tcolor="text-paper_white"
@@ -233,6 +234,9 @@ export default function StartGame() {
                  bgcolor = "bg-tomato"
                  onClick = {handleNext}
                 />
+            
+            </span>
+            <span className="mx-4">
             <Button
                  text="Stop" 
                  size = "text-body"
@@ -242,6 +246,8 @@ export default function StartGame() {
                  bgcolor = "bg-pensive_blue"
                  onClick = {()=> {setStop(true)}}
                 />
+            </span>
+            
             </div>):(
                 
                     
