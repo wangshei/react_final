@@ -8,8 +8,14 @@ import Games from "./Games";
 import Card from "../Card";
 import CardList from "../CardList";
 import { toast } from "react-toastify";
+import { useEffect} from "react";
+
 
 export default function StartGame() {
+    useEffect(() => {
+        document.title = "Play - No Small Talk";  
+      }, []);
+
     const [level1, setLevel1] = useState(true);
     const [level2, setLevel2] = useState(true);
     const [level3, setLevel3] = useState(true);

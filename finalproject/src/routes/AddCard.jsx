@@ -7,9 +7,14 @@ import Button from "../Button";
 import PostCard from "../PostCard";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import { useEffect} from "react";
 
 
 export default function AddCard() {
+    useEffect(() => {
+        document.title = "Add Card - No Small Talk";  
+      }, []);
+
     const [question, setQuestion] = useState("")
     const [description, setDescription] = useState("")
     const [type, setType] = useState()

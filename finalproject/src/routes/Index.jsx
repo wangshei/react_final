@@ -3,9 +3,15 @@ import CardList from "../CardList";
 import '../index.css';
 import { toast } from "react-toastify";
 import Button from "../Button";
+import React, { useEffect} from "react";
+
 
 export default function Index() {
   const questions = useLoaderData();
+
+  useEffect(() => {
+    document.title = "Home - No Small Talk";  
+  }, []);
 
   return (
     <div className="pb-12">

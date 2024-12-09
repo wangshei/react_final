@@ -9,9 +9,11 @@ import { useLoaderData, useNavigate } from "react-router-dom";
 import { faV } from "@fortawesome/free-solid-svg-icons";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
+import { useEffect} from "react";
 
 
 export default function EditCard() {
+    
     const questions = useLoaderData();
     const navigate = useNavigate();
 
@@ -22,6 +24,11 @@ export default function EditCard() {
     const [category, setCategory] = useState(questions.categoryId)
     const [level, setLevel] = useState(questions.levelId)
     console.log(question, description, type, favourite, category, level)
+
+    useEffect(() => {
+        document.title = `Edit - ${question}`;  
+      }, []);
+
     const handleSubmit = (event) => {
         event.preventDefault(); // Prevent default form submission behavior
         fetch(`/questions/${questions.id}`, {

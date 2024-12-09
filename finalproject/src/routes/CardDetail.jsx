@@ -3,15 +3,22 @@ import { useLoaderData, useNavigate } from "react-router-dom";
 import '../index.css';
 import Button from "../Button";
 import { toast } from "react-toastify";
+import React, { useEffect} from "react";
 
 
 export default function CardDetail(props) {
+
+    useEffect(() => {
+        document.title = `${question.question}`;  
+      }, []);
+
     const question = useLoaderData();
     console.log(question)
     const navigate = useNavigate();
     if (!question) {
         return <div>Loading...</div>;
     }
+
 
     return(
         <div  className="h-[1000px]">

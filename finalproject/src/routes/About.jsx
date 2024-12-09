@@ -1,4 +1,11 @@
+
+import React, { useEffect} from "react";
+
 export default function About() {
+    useEffect(() => {
+        document.title = "About - No Small Talk";  
+      }, []);
+
     return(
         <div className="font-sans text-nav text-dark_blue h-[1000px]">
             <span>This is a game inspired by We're Not Really Strangers Card Game</span>
