@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "How would you describe me?",
+      "description": "Ask everyone to tell you 3 words they immediately think about when they think about you and why",
+      "categoryId": 1,
+      "favourite": true,
+      "levelId": 1,
+      "typeId": 1
+    },
+    {
+      "id": 1,
+      "question": "Ask a player something you're always curious about",
+      "description": "Wild card! Speak your mind",
+      "categoryId": 0,
+      "favourite": true,
+      "levelId": 3,
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the most important lesson you learned about life",
+      "description": "Some things we learn stay with us forever",
+      "categoryId": 4,
+      "favourite": false,
+      "levelId": 2,
+      "typeId": 0
+    },
+    {
+      "id": 3,
+      "question": "Closer your eyes, how would you introduce each player to someone who is to join the game but has never met them before?",
+      "description": "No second thoughts, say things that come to your mind first",
+      "categoryId": 0,
+      "favourite": false,
+      "levelId": 2,
+      "typeId": 1
+    },
+    {
+      "id": 4,
+      "question": "Tell us about something you're most proud of this year",
+      "description": "How did you change? What is something significant that happened?",
+      "categoryId": 3,
+      "favourite": false,
+      "levelId": 1,
+      "typeId": 0
+    },
+    {
+      "id": 5,
+      "question": "What are three qualities that are special about you",
+      "description": "What is something that comes naturally to you but not for other people you know",
+      "categoryId": 0,
+      "favourite": false,
+      "levelId": 1,
+      "typeId": 0
+    },
+    {
+      "id": 6,
+      "question": "Tell us about an event that shaped who you are",
+      "description": "What is something that completely changed how you view the world?",
+      "categoryId": 3,
+      "favourite": false,
+      "levelId": 1,
+      "typeId": 0
+    },
+    {
+      "id": 7,
+      "question": "Tell us about your first love",
+      "description": "How did you meet? How has it shaped your view about relationships",
+      "categoryId": 3,
+      "favourite": false,
+      "levelId": 2,
+      "typeId": 0
+    },
+    {
+      "id": 8,
+      "question": "What are some qualities you look for in a partner",
+      "description": "What do you value the most in love relationships?",
+      "categoryId": 1,
+      "favourite": false,
+      "levelId": 2,
+      "typeId": 0
+    }
+  ],
+  "type": [
+    {
+      "id": 0,
+      "name": "answer"
+    },
+    {
+      "id": 1,
+      "name": "action"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "identity"
+    },
+    {
+      "id": 1,
+      "name": "relationship"
+    },
+    {
+      "id": 2,
+      "name": "dream"
+    },
+    {
+      "id": 3,
+      "name": "memories"
+    },
+    {
+      "id": 4,
+      "name": "secret"
+    }
+  ],
+  "levels": [
+    {
+      "id": 0,
+      "name": "Level 1",
+      "description": "Personal introductions"
+    },
+    {
+      "id": 1,
+      "name": "Level 2",
+      "description": "Get to know each other"
+    },
+    {
+      "id": 2,
+      "name": "Level 3",
+      "description": "Deep into the conversation"
+    },
+    {
+      "id": 3,
+      "name": "Level 4",
+      "description": "Proceed with caution"
+    }
+  ]
+}
