@@ -21,11 +21,11 @@ export default function PostCard(props) {
 
     return(
         <div className="flex flex-col gap-6 text-dark_blue font-sans text-sans text-body ">
-             <RadioButton
-            name="Type"
+            <RadioButton
+            name="Expecting..."
             options={[
-              { value: 0, label: "Answer" },
-              { value: 1, label: "Action" },
+              { value: 0, label: "Answer: Share something personal" },
+              { value: 1, label: "Action: Perform the described action" },
             ]}
             value={type}
             onChange={props.onChangeType}
@@ -33,8 +33,8 @@ export default function PostCard(props) {
           />
             <InputField 
               id = "question" 
-              label = "Question"
-              placeholder = "Ask anything"
+              label = "Card Title"
+              placeholder = "Put an ask / action"
               value = {question} 
               onChange = {props.onChangeQuestion}
               error = {props.inputError}
@@ -42,7 +42,7 @@ export default function PostCard(props) {
             <InputField 
               id = "description" 
               label = "Description"
-              placeholder = "If clarification is needed, describe what the question is asking "
+              placeholder = "If clarification is needed, describe what the card is asking "
               value = {description} 
               onChange = {props.onChangeDescription}
               />
@@ -50,7 +50,7 @@ export default function PostCard(props) {
           
            <SelectMenu
             id="category"
-            label="Question Category"
+            label="Card Category"
             name="Category"
             value={category}
             options={[
@@ -75,6 +75,7 @@ export default function PostCard(props) {
             ]}
             onChange={props.onChangeLevel}
         />
+         
            <Checkbox  
               id = "favourite" 
               label = "Mark Favourite? "

@@ -18,7 +18,7 @@ export default function Card(props) {
           <div className= "flex justify-center items-center">
           {getImage(category)}
           </div>
-          <div className="absolute top-[100px] left-0 right-0`">
+          <div className="flex flex-col top-[100px] left-0 right-0`">
             <div className={`${tcolor} font-heading text-subtitle my-[24px] mx-[60px]`}>
                 {question}
             </div>

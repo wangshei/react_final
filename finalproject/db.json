@@ -16,14 +16,14 @@
       "categoryId": 0,
       "favourite": false,
       "levelId": 3,
-      "typeId": "0"
+      "typeId": 1
     },
     {
       "id": 2,
       "question": "What is the most important lesson you learned about life",
       "description": "Some things we learn stay with us forever",
       "categoryId": 4,
-      "favourite": true,
+      "favourite": false,
       "levelId": 2,
       "typeId": 0
     },
@@ -60,7 +60,7 @@
       "description": "What is something that completely changed how you view the world?",
       "categoryId": 3,
       "favourite": false,
-      "levelId": "2",
+      "levelId": 2,
       "typeId": 0
     },
     {
@@ -80,6 +80,76 @@
       "favourite": false,
       "levelId": 2,
       "typeId": 0
+    },
+    {
+      "id": 9,
+      "question": "Pretend you are another player",
+      "description": "Act as if you are another player until other people correctly guess it right",
+      "typeId": "1",
+      "categoryId": "0",
+      "levelId": "1",
+      "favourite": false
+    },
+    {
+      "id": 10,
+      "question": "Describe everyone as an animal",
+      "description": "What would each player be and why",
+      "typeId": "1",
+      "categoryId": 0,
+      "levelId": 0,
+      "favourite": false
+    },
+    {
+      "id": 11,
+      "question": "What are 5 things you can't stand other people do",
+      "description": "Your biggest pet peeves",
+      "typeId": "0",
+      "categoryId": 0,
+      "levelId": "1",
+      "favourite": false
+    },
+    {
+      "id": 12,
+      "question": "Describe your ideal type",
+      "description": "What are they like? Why is that your ideal?",
+      "typeId": "0",
+      "categoryId": "1",
+      "levelId": "1",
+      "favourite": false
+    },
+    {
+      "id": 13,
+      "question": "If you have to give a tattoo to every where are what are you going to put",
+      "description": "who, where, what and why",
+      "typeId": "1",
+      "categoryId": 0,
+      "levelId": 0,
+      "favourite": false
+    },
+    {
+      "id": 14,
+      "question": "What is your biggest insecurities",
+      "description": "About yourself, about how others perceive you...",
+      "typeId": "0",
+      "categoryId": "4",
+      "levelId": "2",
+      "favourite": false
+    },
+    {
+      "id": 15,
+      "question": "What is a fictional/controversial character you have had a crush on?",
+      "description": "Patrick Star, Maximus (the horse from Rapunzel), Lord Voldemort, etc.",
+      "typeId": "0",
+      "categoryId": "1",
+      "levelId": "1",
+      "favourite": false
+    },
+    {
+      "id": 18,
+      "question": "da",
+      "description": "",
+      "typeId": "1",
+      "favourite": false
     }
   ],
   "type": [

@@ -57,10 +57,12 @@ export default function AddCard() {
         const promise = fetch("/questions")
             .then((response) => response.json())
             .then((data) => {
-                if (data.length > 0) {
-                    maxId = data.length-1;
-                    setMaxId(maxId);
-                }
+                data.forEach(item => {
+                    if (item.id > maxId) {
+                        maxId = item.id;
+                    }
+                });
+                setMaxId(maxId);
                 return maxId
             })
         promise.then((maxId)=>{
